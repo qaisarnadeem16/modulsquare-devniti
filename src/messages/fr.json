@@ -1,0 +1,270 @@
+{
+    "hello": "Bonjour",
+    "welcome": "Bienvenue sur notre site web !",
+    "about_us": "À propos de nous",
+    "products": "Produits",
+    "gallery": "Galerie",
+    "call_back": "Rappel",
+    "get_quote": "Obtenir un devis",
+    "hero_heading": "La meilleure entreprise internationale de construction modulaire",
+    "offerings": "— Nos Offres",
+    "title": "Forfaits Sur Mesure pour Chaque Besoin.",
+    "description": "Les modèles de la série EU sont reconnus comme des produits solides et durables. Cette structure est garantie pour des utilisations côte à côte et en superposition multi-étages.",
+    "packages": {
+      "basic": {
+        "subtitle": "Basique",
+        "title": "Unité Modulaire Seule",
+        "description": "Conçus et ingénierés avec soin en Italie, nos unités modulaires allient élégance, fonctionnalité et précision.",
+        "features": ["Conçu avec soin.", "Conçu avec soin.", "Conçu avec soin."]
+      },
+      "essential": {
+        "subtitle": "Essentiel",
+        "title": "Unité Modulaire + Livraison",
+        "description": "Conçus et ingénierés avec soin en Italie, nos unités modulaires allient élégance, fonctionnalité et précision.",
+        "features": ["Conçu avec soin.", "Conçu avec soin.", "Conçu avec soin."]
+      },
+      "essentialPlus": {
+        "subtitle": "Essentiel+",
+        "title": "Unité Modulaire + Livraison + Assemblage sur Site",
+        "description": "Conçus et ingénierés avec soin en Italie, nos unités modulaires allient élégance, fonctionnalité et précision.",
+        "features": ["Conçu avec soin.", "Conçu avec soin.", "Conçu avec soin."]
+      }
+    },
+    "getQuote": "Obtenir un Devis",
+    "workflow": {
+      "process_heading": "Notre Processus",
+      "experience": "Découvrez une collaboration",
+      "collaboration": "fluide",
+      "with_us": "avec nous",
+      "step01": {
+        "title": "Choisissez votre forfait",
+        "description": "Sélectionnez le nombre de modules dont vous avez besoin et le type de configuration (bureau, maison, stockage, etc.)."
+      },
+      "step02": {
+        "title": "Recevez votre devis et plan",
+        "description": "Nous créons un devis personnalisé avec des prix détaillés et un plan initial."
+      },
+      "step03": {
+        "title": "Discuter et ajuster",
+        "description": "Nous révisons ensemble vos besoins, ajustons et finalisons la disposition et les options."
+      },
+      "step04": {
+        "title": "Confirmez votre commande",
+        "description": "Une fois que vous approuvez le devis, votre commande est confirmée et la production commence."
+      },
+      "step05": {
+        "title": "Livraison internationale",
+        "description": "La livraison est disponible partout dans le monde selon le forfait."
+      },
+      "step06": {
+        "title": "Assistance à l'installation",
+        "description": "L'assistance au montage est disponible selon le forfait."
+      }
+    },
+    "Home": {
+      "hero": {
+        "brand": "PM Modulaire",
+        "heading": "La Meilleure Entreprise Internationale de Construction Modulaire",
+        "description": "Conçus et ingénierés avec soin en Italie, nos unités modulaires allient élégance, fonctionnalité et précision. Chaque détail est élaboré pour répondre aux normes de qualité européennes les plus élevées.",
+        "button_check_out": "Découvrez Nos Produits",
+        "italian_made": "Fabriqué en Italie",
+        "button_whatsapp": "Contacter via WhatsApp"
+      },
+      "about": {
+        "title": "À Propos de Nous",
+        "heading1": "Construire the",
+        "heading2": "l'Avenir",
+        "heading3": "Un Module à la Fois",
+        "description": "Conçus et ingénierés avec soin en Italie, nos unités modulaires allient élégance, fonctionnalité et précision. Chaque détail est élaboré pour répondre aux normes de qualité européennes les plus élevées, garantissant une esthétique moderne et raffinée qui rehausse n'importe quel espace. Construites avec de l'acier de qualité supérieure, des panneaux renforcés et des finitions résistantes aux intempéries, nos unités modulaires assurent une performance durable dans tous les environnements. Qu'il s'agisse de chaleur extrême, de froid ou d'humidité, elles restent structurellement solides et fiables au fil du temps."
+      },
+      "core_values": {
+        "title": "À Propos de Nous",
+        "heading1": "Construire l'Avenir, ",
+        "heading2": "Un Module à la Fois",
+        "speed_efficiency": "Vitesse & Efficacité",
+        "speed_description": "Lorem ipsum dolor sit amet consectetur. Mi ut auctor risus nibh lobortis. Erat lectus aliquam adipiscing egestas mi.Lorem ipsum dolor sit amet consectetur. Mi ut auctor risus nibh lobortis. Erat lectus aliquam adipiscing.",
+        "customizability": "Personnalisation",
+        "customizability_description": "Lorem ipsum dolor sit amet consectetur. Mi ut auctor risus nibh lobortis. Erat lectus aliquam adipiscing egestas mi.Lorem ipsum dolor sit amet consectetur. Mi ut auctor risus nibh lobortis. Erat lectus aliquam adipiscing.",
+        "sustainability": "Durabilité",
+        "sustainability_description": "Lorem ipsum dolor sit amet consectetur. Mi ut auctor risus nibh lobortis. Erat lectus aliquam adipiscing egestas mi.Lorem ipsum dolor sit amet consectetur. Mi ut auctor risus nibh lobortis. Erat lectus aliquam adipiscing."
+      },
+      "cta": {
+        "title": "Notre Expertise",
+        "heading": "Vous voulez un module sur mesure ? Contactez-nous !",
+        "description": "Les modèles de la série EU sont reconnus comme des produits solides et durables. Cette structure est garantie pour une utilisation côte à côte et en empilement multi-étages.",
+        "button_get_in_touch": "Prendre Contact",
+        "button_whatsapp": "Contacter via WhatsApp",
+        "email": "info@modularsalesplatform.com",
+        "phone": "+1 (555) 123-4567"
+      },
+      "modular": {
+        "title": "Notre Expertise",
+        "heading": "Découvrez les Unités Modulaires Italiennes",
+        "heading1": "Présentation",
+        "heading2": "Conçu en Italie",
+        "heading3": "Unité modulaire",
+        "description": "Les modèles de la série EU sont reconnus comme des produits solides et durables. Cette structure est garantie pour une utilisation côte à côte et en empilement multi-étages.",
+        "features": {
+          "standard_module": "Module Standard",
+          "on_site_assembly": "Assemblage sur Place",
+          "flexible_packages": "5 Forfaits Flexibles",
+          "italian_designed": "Conçu en Italie",
+          "full_installation": "Installation Complète",
+          "fully_customizable": "Entièrement Personnalisable"
+        },
+        "button_quote": "Obtenir un Devis"
+      }
+    },
+    "Gallery": {
+      "hero": {
+        "breadcrumb_home": "Accueil",
+        "breadcrumb_gallery": "Galerie",
+        "heading": "Notre portefeuille de constructions modulaires à grande échelle à travers le monde.",
+        "scroll_below": "Faire défiler vers le bas"
+      },
+      "intro": {
+        "paragraph1": "Découvrez notre portefeuille de constructions modulaires internationales, mettant en valeur notre expertise dans les projets résidentiels, commerciaux et industriels. Des resorts de luxe",
+        "paragraph2": "aux espaces de bureau haut de gamme, nos unités modulaires conçues en Italie offrent qualité, efficacité et scalabilité."
+      },
+      "gallery": {
+        "project_size": "Taille du projet :",
+        "modules_used": "Modules utilisés :",
+        "load_more": "Charger plus"
+      }
+    },
+      "footer": {
+      "home": "Accueil",
+      "about_us": "À propos de nous",
+      "gallery": "Galerie",
+      "quotation": "Devis",
+      "terms": "Conditions Générales",
+      "privacy": "Politique de Confidentialité"
+    },
+    "aboutUs": {
+      "hero": {
+        "currentPage": "À propos de nous",
+        "title": "En savoir plus sur nous"
+      },
+      "story": {
+        "ourStory": "Notre histoire",
+        "years": "30+",
+        "experience": "Années d'expérience"
+      },
+      "businessNumbers": {
+        "sectionTitle": "Chiffres de l'entreprise",
+        "mainTitle": "Créer un impact mondial",
+        "stats": [
+          {
+            "number": "30+",
+            "label": "Années d'expérience"
+          },
+          {
+            "number": "26000m²",
+            "label": "Espace de production"
+          },
+          {
+            "number": "20+",
+            "label": "Pays où nous exportons"
+          },
+          {
+            "number": "20000+",
+            "label": "Pièces par an"
+          }
+        ]
+      },
+      "modularUnits": {
+        "sectionTitle": "Pourquoi nous",
+        "mainTitle": "Pourquoi choisir nos unités modulaires ?",
+        "features": [
+          {
+            "title": "Artisanat italien",
+            "description": "Conçues et fabriquées minutieusement en Italie, nos unités modulaires allient élégance, fonctionnalité et précision. Chaque détail est conçu pour répondre aux normes de qualité européennes les plus élevées, garantissant une esthétique moderne et raffinée qui valorise tout espace."
+          },
+          {
+            "title": "Matériaux à haute durabilité",
+            "description": "Construites avec de l'acier de première qualité, des panneaux renforcés et des finitions résistantes aux intempéries, nos unités modulaires garantissent une performance durable dans tout environnement. Qu'il s'agisse de chaleur extrême, de froid ou d'humidité, elles restent structurellement solides et fiables au fil du temps."
+          },
+          {
+            "title": "Conception économe en énergie",
+            "description": "La durabilité rencontre l'innovation avec notre isolation économe en énergie, nos systèmes de ventilation avancés et une compatibilité optionnelle avec les panneaux solaires. Conçues pour réduire la consommation d'énergie, nos unités contribuent à créer un espace écologique et économique à long terme."
+          }
+        ]
+      },
+      "missionVision": {
+        "sectionTitle": "Notre mission et vision",
+        "mainTitle": "Découvrez les principes fondamentaux qui nous guident",
+        "sections": [
+          {
+            "title": "Notre mission",
+            "description": "Conçues et fabriquées minutieusement en Italie, nos unités modulaires allient élégance, fonctionnalité et précision. Chaque détail est conçu pour répondre aux normes de qualité européenne les plus élevées, garantissant une esthétique moderne et raffinée qui valorise tout espace. Construites avec de l'acier de première qualité, des panneaux renforcés et des finitions résistantes aux intempéries."
+          },
+          {
+            "title": "Notre vision",
+            "description": "Conçues et fabriquées minutieusement en Italie, nos unités modulaires allient élégance, fonctionnalité et précision. Chaque détail est conçu pour répondre aux normes de qualité européenne les plus élevées, garantissant une esthétique moderne et raffinée qui valorise tout espace. Construites avec de l'acier de première qualité, des panneaux renforcés et des finitions résistantes aux intempéries."
+          }
+        ]
+      }
+    },
+    "contactUs": "Contactez-nous",
+    "getQuotation": "Demandez un devis",
+    "sendDetails": "Envoyez-nous vos coordonnées et nous vous répondrons dès que possible.",
+    "provideDetails": "Fournissez vos informations ici",
+    "firstName": "Prénom",
+    "lastName": "Nom de famille",
+    "email": "Votre e-mail",
+    "package": "Sélectionner un forfait",
+    "basic": "De base",
+    "essential": "Essentiel",
+    "essentialPlus": "Essentiel+",
+    "modules": "Nombre de modules",
+    "country": "Votre pays",
+    "phone": "Votre téléphone",
+    "submit": "Soumettre",
+    "address": "Bâtiment B, Metro City, CA 90210 États-Unis",
+    "emailAddress": "info@modularsalesplatform.com",
+    "phoneNumber": "+1 (555) 123-4567",
+    "errorRequired": "est requis",
+    "errorEmail": "Un e-mail valide est requis",
+    "errorModules": "Le nombre de modules doit être supérieur à 0",
+    "scrollBelow": "faire défiler ci-dessous",
+    "contact_detail": "Découvrez notre portefeuille de constructions modulaires internationales, mettant en valeur notre expertise dans les projets résidentiels, commerciaux et industriels. Des complexes hôteliers de luxe aux espaces de bureaux haut de gamme, nos unités modulaires de conception italienne offrent qualité, efficacité et évolutivité.",
+    "hero_title": "Unité modulaire italienne de haute qualité",
+    "hero_subtitle": "Découvrez les meilleures solutions pour vos besoins.",
+    "hero_badge": "Design italien",
+    "hero_description": "Les modèles de la série EU sont reconnus pour leur solidité et leur durabilité. Cette structure est garantie pour une utilisation côte à côte ou empilée sur plusieurs étages. Leur flexibilité en matière d'épaisseur de panneaux assure un confort même dans des climats extrêmes. La solidité structurelle garantit une durée de vie comparable à celle des constructions traditionnelles en maçonnerie. Ce produit peut être fourni entièrement assemblé ou en version à plat.",
+  
+  
+    "ProvideDetails": "Fournissez vos informations",
+    "FirstName": "Prénom",
+    "LastName": "Nom",
+    "Email": "Votre e-mail",
+    "Phone": "Votre téléphone",
+    "NumberOfModules": "Nombre de modules",
+    "SelectPackage": "Sélectionnez un forfait",
+    "PackageBasic": "Basique",
+    "PackageEssential": "Essentiel",
+    "PackageEssentialPlus": "Essentiel+",
+    "YourCountry": "Votre pays",
+    "Country": {
+      "US": "États-Unis",
+      "CA": "Canada",
+      "UK": "Royaume-Uni"
+    },
+    "Submit": "Soumettre",
+    "Submitting": "Soumission...",
+    "FirstNameRequired": "Le prénom est requis.",
+    "LastNameRequired": "Le nom est requis.",
+    "ValidEmailRequired": "Une adresse e-mail valide est requise.",
+    "PackageRequired": "Veuillez sélectionner un forfait.",
+    "ModulesRequired": "Veuillez spécifier le nombre de modules.",
+    "CountryRequired": "Le pays est requis.",
+    "PhoneRequired": "Le numéro de téléphone est requis.",
+    "SuccessMessage": "Merci ! Votre demande a été envoyée avec succès.",
+    "FormSendFailed": "Échec de l'envoi du message. Veuillez réessayer.",
+    "FormSendError": "Erreur lors de l'envoi du message. Veuillez réessayer plus tard.",
+    "ContactUs": "Contactez-nous",
+    "GetQuotation": "Obtenez un devis",
+    "SendDetails": "Envoyez-nous vos informations et nous vous contacterons sous peu.",
+    "Address": "Bâtiment B, Metro City, CA 90210 États-Unis"
+  }
+  

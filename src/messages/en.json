@@ -1,0 +1,280 @@
+{
+    "hello": "Hello",
+    "welcome": "Welcome to our website!",
+    "about_us": "About Us",
+    "products": "Products",
+    "gallery": "Gallery",
+    "call_back": "Call Back",
+    "get_quote": "Get a Quote",
+    "hero_heading": "The Best International Modular Construction Company",
+    "offerings": "— Offerings",
+    "title": "Tailored Packages for Every Need.",
+    "description": "The EU series models are recognized as solid and durable products. This structure is guaranteed for both side-by-side and multi-story stacking uses.",
+    "packages": {
+      "basic": {
+        "subtitle": "Basic",
+        "title": "Just the Modular Unit",
+        "description": "Meticulously designed and engineered in Italy, our modular units blend elegance, functionality, and precision.",
+        "features": [
+          "Meticulously designed.",
+          "Meticulously designed.",
+          "Meticulously designed."
+        ]
+      },
+      "essential": {
+        "subtitle": "Essential",
+        "title": "Modular Unit + Shipping",
+        "description": "Meticulously designed and engineered in Italy, our modular units blend elegance, functionality, and precision.",
+        "features": [
+          "Meticulously designed.",
+          "Meticulously designed.",
+          "Meticulously designed."
+        ]
+      },
+      "essentialPlus": {
+        "subtitle": "Essential+",
+        "title": "Modular unit + Shipping + On-Site Assembly",
+        "description": "Meticulously designed and engineered in Italy, our modular units blend elegance, functionality, and precision.",
+        "features": [
+          "Meticulously designed.",
+          "Meticulously designed.",
+          "Meticulously designed."
+        ]
+      }
+    },
+    "getQuote": "Get a Quote",
+    "workflow": {
+      "process_heading": "Our Process",
+      "experience": "Experience Seamless",
+      "collaboration": "Collaboration",
+      "with_us": "with Us",
+      "step01": {
+        "title": "Choose Your Package",
+        "description": "Select the number of modules you need and the type of configuration (office, home, storage, etc.)."
+      },
+      "step02": {
+        "title": "Receive Your Quote & Blueprint",
+        "description": "We create a personalized quote with detailed pricing and the initial blueprint."
+      },
+      "step03": {
+        "title": "Discuss & Adjust",
+        "description": "Together, we review your needs, make adjustments, and finalize the layout and options."
+      },
+      "step04": {
+        "title": "Confirm Your Order",
+        "description": "Once you approve the quote, your order is confirmed, and production begins."
+      },
+      "step05": {
+        "title": "Delivery Anywhere in the World",
+        "description": "International delivery is available, depending on the package."
+      },
+      "step06": {
+        "title": "Installation Support",
+        "description": "Assembly assistance is available, depending on the package."
+      }
+    },
+    "Home": {
+      "hero": {
+        "brand": "PM Modular",
+        "heading": "The Best International Modular Construction Company",
+        "description": "Meticulously designed and engineered in Italy, our modular units blend elegance, functionality, and precision. Every detail is crafted to meet the highest European quality standards.",
+        "button_check_out": "Check out Our Product",
+        "italian_made": "Italian Made",
+        "button_whatsapp": "Contact on WhatsApp"
+      },
+      "about": {
+        "title": "About Us",
+        "heading1": "Building the",
+        "heading2": "Future",
+        "heading3": "One Module at a Time",
+        "description": "Meticulously designed and engineered in Italy, our modular units blend elegance, functionality, and precision. Every detail is crafted to meet the highest European quality standards, ensuring a refined, modern aesthetic that enhances any space. Built using premium-grade steel, reinforced panels, and weather-resistant finishes, our modular units guarantee long-lasting performance in any environment. Whether in extreme heat, cold, or humidity, they remain structurally strong and reliable over time."
+      },
+      "core_values": {
+        "title": "About Us",
+        "heading1": "Building the Future,",
+        "heading2": "One Module at a Time",
+        "speed_efficiency": "Speed & Efficiency",
+        "speed_description": "Lorem ipsum dolor sit amet consectetur. Mi ut auctor risus nibh lobortis. Erat lectus aliquam adipiscing egestas mi.Lorem ipsum dolor sit amet consectetur. Mi ut auctor risus nibh lobortis. Erat lectus aliquam adipiscing.",
+        "customizability": "Customizability",
+        "customizability_description": "Lorem ipsum dolor sit amet consectetur. Mi ut auctor risus nibh lobortis. Erat lectus aliquam adipiscing egestas mi.Lorem ipsum dolor sit amet consectetur. Mi ut auctor risus nibh lobortis. Erat lectus aliquam adipiscing.",
+        "sustainability": "Sustainability",
+        "sustainability_description": "Lorem ipsum dolor sit amet consectetur. Mi ut auctor risus nibh lobortis. Erat lectus aliquam adipiscing egestas mi.Lorem ipsum dolor sit amet consectetur. Mi ut auctor risus nibh lobortis. Erat lectus aliquam adipiscing."
+      },
+      "cta": {
+        "title": "Our Expertise",
+        "heading": "Want a Custom Modular? Get in Touch with Us!",
+        "description": "The EU series models are recognized as solid and durable products. This structure is guaranteed for both side-by-side and multi-story stacking uses.",
+        "button_get_in_touch": "Get in Touch",
+        "button_whatsapp": "Contact on WhatsApp",
+        "email": "info@modularsalesplatform.com",
+        "phone": "+1 (555) 123-4567"
+      },
+      "modular": {
+        "title": "Our Expertise",
+        "heading1": "Introducing",
+        "heading2": "Italian Designed",
+        "heading3": " Modular Unit",
+        "description": "The EU series models are recognized as solid and durable products. This structure is guaranteed for both side-by-side and multi-story stacking uses.",
+        "features": {
+          "standard_module": "Standard Module",
+          "on_site_assembly": "On-Site Assembly",
+          "flexible_packages": "5 Flexible Packages",
+          "italian_designed": "Italian Designed",
+          "full_installation": "Full Installation",
+          "fully_customizable": "Fully Customizable"
+        },
+        "button_quote": "Get a Quote"
+      }
+    },
+    "Gallery": {
+      "hero": {
+        "breadcrumb_home": "Home",
+        "breadcrumb_gallery": "Gallery",
+        "heading": "Our portfolio of large-scale modular constructions worldwide.",
+        "scroll_below": "Scroll Below"
+      },
+      "intro": {
+        "paragraph1": "Explore our portfolio of international modular constructions, showcasing our expertise in residential, commercial, and industrial projects. From luxury resorts",
+        "paragraph2": "to high-end office spaces, our Italian-designed modular units deliver quality, efficiency, and scalability."
+      },
+      "gallery": {
+        "project_size": "Project Size:",
+        "modules_used": "Modules Used:",
+        "load_more": "Load More"
+      }
+    },
+    "footer": {
+      "home": "Home",
+      "about_us": "About us",
+      "gallery": "Gallery",
+      "quotation": "Quotation",
+      "terms": "Terms & Conditions",
+      "privacy": "Privacy Policy"
+    },
+    "aboutUs": {
+      "hero": {
+        "currentPage": "About Us",
+        "title": "Learn About Us"
+      },
+      "story": {
+        "ourStory": "Our Story",
+        "years": "30+",
+        "experience": "Years of Experience"
+      },
+      "businessNumbers": {
+        "sectionTitle": "Business Numbers",
+        "mainTitle": "Creating Impact Globally",
+        "stats": [
+          {
+            "number": "30+",
+            "label": "Years of experience"
+          },
+          {
+            "number": "26000m²",
+            "label": "Production space"
+          },
+          {
+            "number": "20+",
+            "label": "Countries we export to"
+          },
+          {
+            "number": "20000+",
+            "label": "Pieces per year"
+          }
+        ]
+      },
+      "modularUnits": {
+        "sectionTitle": "Why Us",
+        "mainTitle": "Why Choose Our Modular Units?",
+        "features": [
+          {
+            "title": "Italian Craftsmanship",
+            "description": "Meticulously designed and engineered in Italy, our modular units blend elegance, functionality, and precision. Every detail is crafted to meet the highest European quality standards, ensuring a refined, modern aesthetic that enhances any space."
+          },
+          {
+            "title": "High Durability Materials",
+            "description": "Built using premium-grade steel, reinforced panels, and weather-resistant finishes, our modular units guarantee long-lasting performance in any environment. Whether in extreme heat, cold, or humidity, they remain structurally strong and reliable over time."
+          },
+          {
+            "title": "Energy-Efficient Design",
+            "description": "Sustainability meets innovation with our energy-efficient insulation, advanced ventilation systems, and optional solar panel compatibility. Designed to reduce energy consumption, our units help create an eco-friendly, cost-effective space for long-term use."
+          }
+        ]
+      },
+      "missionVision": {
+        "sectionTitle": "Our Mission & Vision",
+        "mainTitle": "Discover the Core Principles that Guide Us",
+        "sections": [
+          {
+            "title": "Our Mission",
+            "description": "Meticulously designed and engineered in Italy, our modular units blend elegance, functionality, and precision. Every detail is crafted to meet the highest European quality standards, ensuring a refined, modern aesthetic that enhances any space. Built using premium-grade steel, reinforced panels, and weather-resistant finishes."
+          },
+          {
+            "title": "Our Vision",
+            "description": "Meticulously designed and engineered in Italy, our modular units blend elegance, functionality, and precision. Every detail is crafted to meet the highest European quality standards, ensuring a refined, modern aesthetic that enhances any space. Built using premium-grade steel, reinforced panels, and weather-resistant finishes."
+          }
+        ]
+      }
+    },
+    "contactUs": "Contact Us",
+    "getQuotation": "Get a Quotation",
+    "sendDetails": "Send us your details and we'll get back to you as soon as possible.",
+    "provideDetails": "Provide Your Details Here",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Your email",
+    "package": "Select package",
+    "basic": "Basic",
+    "essential": "Essential",
+    "essentialPlus": "Essential+",
+    "modules": "No. of modules",
+    "country": "Your country",
+    "phone": "Your phone",
+    "submit": "Submit",
+    "address": "Building B, Metro City, CA 90210 United States",
+    "emailAddress": "info@modularsalesplatform.com",
+    "phoneNumber": "+1 (555) 123-4567",
+    "errorRequired": "is required",
+    "errorEmail": "Valid email is required",
+    "errorModules": "Modules must be greater than 0",
+    "scrollBelow": "Scroll Below",
+    "contact_detail": "Explore our portfolio of international modular constructions, showcasing our expertise in residential, commercial, and industrial projects. From luxury resorts to high-end office spaces, our Italian-designed modular units deliver quality, efficiency, and scalability.",
+    "hero_title": "High-Quality Italian Modular Unit",
+    "hero_subtitle": "Discover the best solutions for your needs.",
+    "hero_badge": "Italian Design",
+    "hero_description": "The EU series models are recognized as solid and durable products. This structure is guaranteed for both side-by-side and multi-story stacking uses. Their flexibility in panel thickness ensures livability even in extreme climates. The structural solidity guarantees a long lifespan comparable to that of traditional masonry construction. This type of product can be supplied either fully assembled or in flat-pack form.",
+  
+    "ProvideDetails": "Provide your details",
+    "FirstName": "First name",
+    "LastName": "Last name",
+    "Email": "Your email",
+    "Phone": "Your phone",
+    "NumberOfModules": "No. of modules",
+    "SelectPackage": "Select package",
+    "PackageBasic": "Basic",
+    "PackageEssential": "Essential",
+    "PackageEssentialPlus": "Essential+",
+    "YourCountry": "Your country",
+    "Country": {
+      "US": "United States",
+      "CA": "Canada",
+      "UK": "United Kingdom"
+    },
+    "Submit": "Submit",
+    "Submitting": "Submitting...",
+    "FirstNameRequired": "First name is required.",
+    "LastNameRequired": "Last name is required.",
+    "ValidEmailRequired": "A valid email is required.",
+    "PackageRequired": "Please select a package.",
+    "ModulesRequired": "Please specify modules.",
+    "CountryRequired": "Country is required.",
+    "PhoneRequired": "Phone number is required.",
+    "SuccessMessage": "Thank you! Your request has been submitted successfully.",
+    "FormSendFailed": "Failed to send message. Please try again.",
+    "FormSendError": "Error sending message. Please try again later.",
+    "ContactUs": "Contact Us",
+    "GetQuotation": "Get a Quotation",
+    "SendDetails": "Send us your details and we'll contact you shortly.",
+    "Address": "Building B, Metro City, CA 90210 United States"
+  }
+  
