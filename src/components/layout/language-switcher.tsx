@@ -1,9 +1,9 @@
 'use client';
 
+import { usePathname, useRouter } from '@/i18n/navigation';
 import { useLocale } from 'next-intl';
 import { ChangeEvent } from 'react';
 import { ChevronDown } from 'lucide-react';
-import { usePathname, useRouter } from '@/i18n/navigation';
 
 export default function LanguageSwitcher() {
     const locale = useLocale();

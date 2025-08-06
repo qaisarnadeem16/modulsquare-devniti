@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import './globals.css';
 import { Instrument_Serif, Oswald, Poppins } from 'next/font/google';
+import { getMessages } from 'next-intl/server';
 
 export const instrumentSerif = Instrument_Serif({
   weight: ['400'],
@@ -60,17 +61,17 @@ export default async function LocaleLayout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  // if (!hasLocale(routing.locales, locale)) {
-  //   notFound();
-  // }
-
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
+ const messages = await getMessages({ locale });
   return (
     <html
       lang={locale}
       className={`${poppins.variable} ${instrumentSerif.variable} ${oswald.variable}`}
     >
       <body>
-        <NextIntlClientProvider locale={locale}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
         </NextIntlClientProvider>
       </body>

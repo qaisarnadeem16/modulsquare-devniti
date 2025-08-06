@@ -9,6 +9,7 @@ import { Facebook, Instagram, MessageCircleMore, Phone, Mail } from 'lucide-reac
 import { useTranslations } from 'next-intl';
 import Button from '../common/custom-button';
 import { ArrowDown, Line } from '@/svgs';
+import LanguageSwitcher from './language-switcher';
 // import QuotationForm from '../common/quotation-form';
 
 
@@ -17,10 +18,7 @@ const Navbar = () => {
     const [isQuoteModalOpen, setIsQuoteModalOpen] = useState(false); // State for modal
     const t = useTranslations();
 
-    // Toggle mobile menu
     const toggleMenu = () => setMenuOpen(!menuOpen);
-
-    // Open/close quote modal
     const toggleQuoteModal = () => setIsQuoteModalOpen(!isQuoteModalOpen);
 
     return (
@@ -28,24 +26,27 @@ const Navbar = () => {
 
 
             {/* Main Navbar */}
-            <nav className=" text-black relative lg:p-5 p-2">
-                <div className="flex items-center  justify-between max-w-[1800px] mx-auto">
-                    {/* Logo */}
-                    <Link href="/" className="flex items-center space-x-2">
+            <nav className=" text-black relative ">
+                <div className=" bg-white sticky">
+                  <div className="flex items-center lg:p-5 p-2  justify-between">
+                      {/* Logo */}
+                   <div className="">
+                     <Link href="/" className="flex   items-center space-x-2">
                         <Image
                             src="/assets/logo.png"
                             alt="Logo"
                             width={200}
                             height={200}
                             unoptimized
-                            className="lg:h-[70px] pr-20 bg-white  h-[60px] w-full clip-corner object-cover"
+                            className="lg:h-[70px] md:pr-20 md:block hidden bg-white  h-[60px] w-full clip-corner object-cover"
                         /></Link>
+                   </div>
                     {/* Desktop Menu */}
-                    <div className="hidden  md:flex space-x-6 xl:pr-20 xl:px-0 lg:px-8 px-4  flex-1 justify-between items-center">
-                        <div className='flex items-center lg:gap-3 text-lightBlack gap-2 lg:mr-0 -mr-5'>
-                            <Link href="/" className="hover:underline xl:px-4 px-2">Home</Link>
-                            <Link href="/modular-sales" className="hover:underline xl:px-4 px-2">Modular Sales</Link>
-                            <Link href="/pictures" className="hover:underline xl:px-4 px-2">Pictures</Link>
+                    <div className="hidden  md:flex gap-10  lg:px-8 px-4  flex-1 justify-center items-center">
+                        <div className='flex items-center lg:gap-3  text-lightBlack gap-2 lg:mr-0 '>
+                            <Link href="/" className="hover:underline hover:text-primary  xl:px-4 px-2">{t(`home`)}</Link>
+                            <Link href="/modular-sales" className="hover:underline hover:text-primary xl:px-4 px-2">{t(`modular_sale`)}</Link>
+                            <Link href="/pictures" className="hover:underline hover:text-primary  xl:px-4 px-2">{t(`pictures`)}</Link>
                         </div>
                       
                     </div>
@@ -54,12 +55,13 @@ const Navbar = () => {
                         <div className="flex items-center gap-2 text-sm">
                             <Phone className="text-gray-500 w-4 h-4" />
                             <div className="text-right leading-tight">
-                                <p className="text-gray-500 text-xs">Have any Questions?</p>
+                                <p className="text-gray-500 text-xs">{t(`any_question`)}</p>
                                 <p className="font-bold text-md text-darkBlue">+230 5 509 9592</p>
                             </div>
                         </div>
+                         <LanguageSwitcher />
                         <Button
-                            label="REQUEST A QUOTE"
+                            label={t(`request_quote`)}
                             className="bg-primary text-white px-6 py-3 rounded-none font-semibold"
                             onClick={toggleQuoteModal}
                         />
@@ -68,11 +70,12 @@ const Navbar = () => {
                     <div className="md:hidden flex items-center  j gap-2">
                         {/* <LanguageSwitcher /> */}
 
-                        <button aria-label="Close menu" className="text-white mr-2" onClick={toggleMenu}>
+                        <button aria-label="Close menu" className="text-primary mr-2" onClick={toggleMenu}>
 
                             <Menu size={28} />
                         </button>
                     </div>
+                  </div>
                 </div>
 
                 {/* Mobile Sidebar */}
@@ -86,15 +89,17 @@ const Navbar = () => {
                             <div>
                                 <div className="flex justify-between items-center mb-6">
                                     <div className="flex items-center space-x-2">
-                                        <Image
-                                            src="/assets/images/1.jpg"
-                                            unoptimized
-                                            priority
-                                            alt="Logo"
-                                            className="h-16 object-cover -ml-3 w-full"
-                                            width={100}
-                                            height={100}
-                                        />
+                                        <div className="">
+                     <Link href="/" className="flex   items-center space-x-2">
+                        <Image
+                            src="/assets/logo.png"
+                            alt="Logo"
+                            width={200}
+                            height={200}
+                            unoptimized
+                            className="lg:h-[70px] md:pr-20 md:hidden block bg-white  h-[60px] w-full clip-corner object-cover"
+                        /></Link>
+                   </div>
                                     </div>
                                     <button onClick={() => setMenuOpen(false)}>
                                         <X size={28} />
@@ -122,9 +127,9 @@ const Navbar = () => {
                                     <div className="flex items-center gap-2 text-sm">
                                         <Phone className="text-gray-500 w-4 h-4" />
                                         <div className="text-right leading-tight">
-                                            <p className="text-gray-500 text-xs">Have any Questions?</p>
-                                            <p className="font-bold text-md text-darkBlue">+230 5 509 9592</p>
-                                        </div>
+                                        <p className="text-gray-500 text-xs">{t(`any_question`)}</p>
+                                        <p className="font-bold text-md text-darkBlue">+230 5 509 9592</p>
+                                    </div>
                                     </div>
                                     <Button
                                         label="REQUEST A QUOTE"

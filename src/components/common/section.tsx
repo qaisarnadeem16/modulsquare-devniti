@@ -1,7 +1,7 @@
 interface SectionProps {
   title: string;
   description: string;
-  image: string;
+  image?: string;
   reverse?: boolean;
 }
 

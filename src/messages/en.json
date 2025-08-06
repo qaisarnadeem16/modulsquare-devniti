@@ -1,5 +1,18 @@
 {
-    "hello": "Hello",
+  "home":"Home",
+  "modular_sale":"Modular Sale",
+  "pictures":"Pictures",
+  "any_question":"Have any Question",
+  "request_quote":"Request Quote",
+  "title":"Tailor-made",
+  "title_1":"offer",
+  "about_heading": "About us",
+  "about_title": "About Modulsquare",
+  "subheading": "Your trusted partner in modular construction",
+  "about_description": "Modulsquare specializes in modular construction in Mauritius. We are committed to excellence and innovation, offering tailor-made solutions to meet the specific needs of both professionals and individuals.",
+  "services": "Our Services",
+  "closing": "At Modulsquare, we are dedicated to turning your ideas into reality.",
+  "hello": "Hello",
     "welcome": "Welcome to our website!",
     "about_us": "About Us",
     "products": "Products",
@@ -8,7 +21,6 @@
     "get_quote": "Get a Quote",
     "hero_heading": "The Best International Modular Construction Company",
     "offerings": "— Offerings",
-    "title": "Tailored Packages for Every Need.",
     "description": "The EU series models are recognized as solid and durable products. This structure is guaranteed for both side-by-side and multi-story stacking uses.",
     "packages": {
       "basic": {

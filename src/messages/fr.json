@@ -1,5 +1,18 @@
 {
-    "hello": "Bonjour",
+  "home":"Maison",
+  "modular_sale":"Vente modulaire",
+  "pictures":"Photos",
+  "any_question":"Vous avez des questions",
+  "request_quote":"Demander un devis",
+  "title":"Offre sur ",
+  "title_1":"mesure",
+  "about_heading": "À propos de nous",
+  "about_title": "À propos de Modulsquare",
+  "subheading": "Votre partenaire de confiance en construction modulaire",
+  "about_description": "Modulsquare est spécialisée dans la construction modulaire à l'île Maurice. Nous nous engageons à offrir l'excellence et l'innovation grâce à des solutions sur mesure adaptées aux besoins spécifiques des professionnels et des particuliers.",
+  "services": "Nos services",
+  "closing": "Chez Modulsquare, nous nous engageons à transformer vos idées en réalité.",
+  "hello": "Bonjour",
     "welcome": "Bienvenue sur notre site web !",
     "about_us": "À propos de nous",
     "products": "Produits",
@@ -8,7 +21,6 @@
     "get_quote": "Obtenir un devis",
     "hero_heading": "La meilleure entreprise internationale de construction modulaire",
     "offerings": "— Nos Offres",
-    "title": "Forfaits Sur Mesure pour Chaque Besoin.",
     "description": "Les modèles de la série EU sont reconnus comme des produits solides et durables. Cette structure est garantie pour des utilisations côte à côte et en superposition multi-étages.",
     "packages": {
       "basic": {

@@ -6,9 +6,9 @@
   /* COLORS */
   --background: #ffffff;
   --foreground: #171717;
-  --primary: #CE9841;
-  --lightBlack: #282a43;
-  --color-gray: #878990;
+  --color-primary: #ce9841;
+  --color-lightBlack:#696e76;
+  --color-gray: #a9aeb3;
   --color-lightgray: #F9F9F9;
   --color-lightred: #FFE8E8;
   --color-lightblack: #FFFFFF1F;
@@ -42,4 +42,10 @@ body {
   background-color: var(--background);
   color: var(--foreground);
   font-family: var(--font-sans);
+}
+
+.outlined-heading {
+  color: transparent;
+  -webkit-text-stroke: 2px #c8913b;
+  text-shadow:#ffff;
 }
