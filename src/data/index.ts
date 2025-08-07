@@ -44,3 +44,21 @@ export const cards = [
     number: '04'
   }
 ];
+
+export const infoBlocks = [
+  {
+    title: 'Sales',
+    heading: 'Listening to your needs',
+    text: 'Find your perfect modular solution: flexible purchase options to meet all your needs',
+  },
+  {
+    title: 'Installation',
+    heading: 'Solution',
+    text: 'Fast and efficient installation: our experts at your service for a hassle-free setup',
+  },
+  {
+    title: 'SAV',
+    heading: 'Support and assistance',
+    text: 'Tailor-made After-Sales Service: we are committed to your complete satisfaction',
+  },
+];

@@ -6,6 +6,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css'; 
 import Button from '@/components/common/custom-button';
 import { useTranslations } from 'next-intl';
+import Container from '@/components/common/container';
 
 const slides = [
   '/assets/hero.png',
@@ -29,12 +30,14 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="relative">
-      <Slider {...settings}>
+    <div >
+    <Container>
+      <div className="relative overflow-hidden">
+          <Slider {...settings}>
         {slides.map((img, index) => (
           <div key={index}>
             <div
-              className="min-h-[600px] bg-cover bg-center flex items-center justify-center"
+              className="min-h-[75vh] bg-cover bg-center overflow-hidden flex items-center justify-center"
               style={{ backgroundImage: `url(${img})` }}
             >
               <div className="w-full h-full flex items-center justify-center">
@@ -50,6 +53,8 @@ const HeroSection = () => {
       <div className="flex justify-center py-6">
         <Button label="SEE OUR OFFERS" className="rounded-br-lg py-3" />
       </div>
+      </div>
+    </Container>
     </div>
   );
 };

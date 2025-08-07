@@ -11,17 +11,17 @@ interface FooterProps {
 const Footer: React.FC<FooterProps> = () => {
   const t = useTranslations();
   return (
-    <footer className="bg-[#292D38] text-white max-w-[1800px] mx-auto font-poppins">
+    <footer className="bg-semiBlack text-white max-w-[1800px] mx-auto font-poppins">
       <div className="xl:max-w-7xl max-w-6xl 2xl:max-w-[1800px] mx-auto px-4 xs:px-6 sm:px-8 lg:px-8 py-8 xs:py-10 lg:py-8 md:py-8 sm:py-12">
-        <div className="bg-[#373B47] p-4 xs:p-6 sm:p-8 flex flex-col sm:flex-row sm:flex-wrap justify-between items-center gap-4 xs:gap-6 sm:gap-8">
+        <div className="bg-darkGray p-4 xs:p-6 sm:p-8 flex flex-col sm:flex-row sm:flex-wrap justify-between items-center gap-4 xs:gap-6 sm:gap-8">
           <div className="shrink-0">
             <Link href="/" className="">
               <Image
-                src="/assets/images/2 (2).png"
+                src="/assets/logo.png"
                 priority
                 alt="PM Modular"
-                width={180}
-                height={92}
+                width={200}
+                height={200}
                 className="w-36 xs:w-40 sm:w-48 lg:w-52 h-auto"
               />
             </Link>

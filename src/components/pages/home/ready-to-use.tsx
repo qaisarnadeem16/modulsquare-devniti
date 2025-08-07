@@ -7,9 +7,10 @@ import React from 'react'
 
 const ReadtoUse = () => {
   return (
-    <div className='py-10 bg-[#f8f9fa]'>
-        <Container>
-            <div className="flex flex-col items-center justify-center gap-8">
+    <div className='py-10 bg-[#f8f9fa] '>
+        <Container className='md:!px-0'>
+           <div className="max-w-7xl  mx-auto">
+             <div className="flex flex-col items-center justify-center gap-8">
                 <Heading>
                     Ready to use
                 </Heading>
@@ -18,7 +19,7 @@ const ReadtoUse = () => {
                 </SubHeading>
             </div>
             <div className="pt-10">
-                <div className="grid relative grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 p-4">
+                <div className="grid  z-20 relative grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 p-4">
       {cards.map((card, index) => (
         <div
           key={index}
@@ -48,6 +49,7 @@ const ReadtoUse = () => {
       ))}
     </div>
             </div>
+           </div>
         </Container>
     </div>
   )

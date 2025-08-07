@@ -1,3 +1,4 @@
+import BackToTopButton from "@/components/common/back-to-top";
 import Features from "@/components/common/features";
 import Section from "@/components/common/section";
 import Header from "@/components/header";
@@ -10,14 +11,15 @@ export default function HomePage() {
   return (
     <>
     <div className='sticky top-0 z-50'>
-                <Navbar />
-            </div>
-       <div>
-     <LandingPage/>
+      <Navbar />
     </div>
     <div className="">
-                <Footer />
-            </div>
+     <LandingPage/>
+     <BackToTopButton/>
+    </div>
+    <div className="">
+      <Footer />
+    </div>
     </>
   );
 }

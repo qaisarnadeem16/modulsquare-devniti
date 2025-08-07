@@ -7,13 +7,14 @@ import SubHeading from '@/components/common/custom-subheading';
 import Image from 'next/image';
 import React from 'react';
 import { serviceData } from '../../../data';
+import Button from '@/components/common/custom-button';
 
 const AboutUs = () => {
   const t = useTranslations();
 
   return (
     <div>
-      <Container className="!px-0">
+      <Container className="md:!px-0">
         <div className="grid md:grid-cols-2 grid-cols-1">
           <div>
             <Image
@@ -56,6 +57,9 @@ const AboutUs = () => {
               {t('closing')}
             </p>
           </div>
+        </div>
+            <div className="flex justify-center py-3">
+            <Button label="Learn More" className="rounded-br-lg !text-primary hover:text-white hover:bg-primary border-2 !bg-transparent py-2" />
         </div>
       </Container>
     </div>

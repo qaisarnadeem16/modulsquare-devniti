@@ -1,3 +1,4 @@
+import BackToTopButton from '@/components/common/back-to-top';
 import Footer from '@/components/layout/footer'
 import Navbar from '@/components/layout/navbar'
 import React from 'react'
@@ -14,7 +15,9 @@ export default async function Layout({
                 <Navbar />
             </div>
             {children}
-
+           <div className="">
+             <BackToTopButton/>
+           </div>
             <div className="">
                 <Footer />
             </div>
