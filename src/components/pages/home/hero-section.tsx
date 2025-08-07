@@ -51,7 +51,7 @@ const HeroSection = () => {
       </Slider>
 
       <div className="flex justify-center py-6">
-        <Button label="SEE OUR OFFERS" className="rounded-br-lg py-3" />
+        <Button label={t(`our_offer`)} className="rounded-br-lg py-3" />
       </div>
       </div>
     </Container>

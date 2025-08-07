@@ -6,11 +6,11 @@ import Heading from '@/components/common/custom-heading';
 import SubHeading from '@/components/common/custom-subheading';
 import Image from 'next/image';
 import React from 'react';
-import { serviceData } from '../../../data';
 import Button from '@/components/common/custom-button';
 
 const AboutUs = () => {
   const t = useTranslations();
+  const serviceData = t.raw('servicesData');
 
   return (
     <div>
@@ -42,7 +42,7 @@ const AboutUs = () => {
               <h1 className="font-semibold py-5">{t('services')}</h1>
 
               <div>
-                {serviceData.map((item, index) => (
+                {serviceData.map((item:any, index:any) => (
                   <div key={index} className="flex gap-2">
                     <p className="leading-8 text-lightBlack">
                       <strong className="text-black">{item.heading}:</strong>{' '}
@@ -59,7 +59,7 @@ const AboutUs = () => {
           </div>
         </div>
             <div className="flex justify-center py-3">
-            <Button label="Learn More" className="rounded-br-lg !text-primary hover:text-white hover:bg-primary border-2 !bg-transparent py-2" />
+            <Button label={t('learn_more')} className="rounded-br-lg !text-primary hover:text-white hover:bg-primary border-2 !bg-transparent py-2" />
         </div>
       </Container>
     </div>

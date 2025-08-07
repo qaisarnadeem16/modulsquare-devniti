@@ -38,7 +38,7 @@ const Navbar = () => {
                             width={200}
                             height={200}
                             unoptimized
-                            className="lg:h-[70px] md:pr-20 md:block hidden bg-white  h-[60px] w-full clip-corner object-cover"
+                            className="lg:h-[70px] md:pr-20 block bg-white  h-[60px] w-full clip-corner object-cover"
                         /></Link>
                    </div>
                     {/* Desktop Menu */}
@@ -51,7 +51,7 @@ const Navbar = () => {
                       
                     </div>
 
-                    <div className="flex items-center gap-6">
+                    <div className="md:flex hidden items-center gap-6">
                         <div className="flex items-center gap-2 text-sm">
                             <Phone className="text-gray-500 w-4 h-4" />
                             <div className="text-right leading-tight">
@@ -68,7 +68,7 @@ const Navbar = () => {
                     </div>
                     {/* Mobile Menu Button */}
                     <div className="md:hidden flex items-center  j gap-2">
-                        {/* <LanguageSwitcher /> */}
+                        <LanguageSwitcher />
 
                         <button aria-label="Close menu" className="text-primary mr-2" onClick={toggleMenu}>
 
@@ -106,24 +106,24 @@ const Navbar = () => {
                                     </button>
                                 </div>
                                 <nav className="flex flex-col space-y-6 my-4">
-                                    <Link href="/aboutus" className="hover:underline xl:px-4 px-2">{t('about_us')}</Link>
-                                    <Link href="/products" className="hover:underline xl:px-4 px-2">{t('products')}</Link>
-                                    <Link href="/gallery" className="hover:underline xl:px-4 px-2">{t('gallery')}</Link>
-                                    <Button
+                                    <Link href="/" className="hover:underline xl:px-4 px-2">{t('home')}</Link>
+                                    <Link href="/modular-sales" className="hover:underline hover:text-primary xl:px-4 px-2">{t(`modular_sale`)}</Link>
+                                    <Link href="/pictures" className="hover:underline hover:text-primary  xl:px-4 px-2">{t(`pictures`)}</Link>
+                                    {/* <Button
                                         label={t('call_back')}
                                         icon={<Phone className="w-4 h-4" />}
                                         iconPosition="left"
                                         className="bg-red-500 flex items-center gap-2 rounded-md text-white w-full px-6 py-3"
-                                    />
-                                    <Button
+                                    /> */}
+                                    {/* <Button
                                         label={t('get_quote')}
                                         icon={<ArrowDown className="text-white" />}
                                         iconPosition="right"
                                         className="bg-red-500 flex items-center gap-2 rounded-md !text-white w-full px-6 py-3"
                                         onClick={toggleQuoteModal} // Trigger modal
-                                    />
+                                    /> */}
                                 </nav>
-                                <div className="flex items-center gap-6">
+                                <div className="flex md:flex-row flex-col md:items-center gap-6">
                                     <div className="flex items-center gap-2 text-sm">
                                         <Phone className="text-gray-500 w-4 h-4" />
                                         <div className="text-right leading-tight">
@@ -132,14 +132,14 @@ const Navbar = () => {
                                     </div>
                                     </div>
                                     <Button
-                                        label="REQUEST A QUOTE"
+                                       label={t(`request_quote`)}
                                         className="bg-[#CE9734] text-white px-6 py-3 rounded-none font-semibold"
                                         onClick={toggleQuoteModal}
                                     />
                                 </div>
                             </div>
 
-                            <div className="flex flex-wrap justify-between items-center text-sm gap-3 w-full self-end-safe py-2 bg-white">
+                            {/* <div className="flex flex-wrap justify-between items-center text-sm gap-3 w-full self-end-safe py-2 bg-white">
                                 <div className="flex flex-wrap items-center gap-4 text-sm text-gray-800">
                                     <span className="flex items-center gap-1">
                                         <Phone className="w-4 h-4" />
@@ -160,8 +160,8 @@ const Navbar = () => {
                                     <Link href="#" target="_blank">
                                         <MessageCircleMore className="w-5 h-5 text-gray-700 hover:text-green-600 transition-colors" />
                                     </Link>
-                                </div>
-                            </div>
+                                </div> */}
+                            {/* </div> */}
                         </div>
                     </>
                 )}
