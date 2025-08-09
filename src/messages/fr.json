@@ -48,6 +48,25 @@
       "terms": "Conditions Générales",
       "privacy": "Politique de Confidentialité"
     }, 
-    "picture_module":"Photos Modulsquare"
+    "picture_module":"Photos Modulsquare",
+    "ready_to_use":"Prêt à l'emploi",
+    "ready_description":"Un processus conçu pour vous simplifier la vie",
+    "cards": [
+      { "label": "Showroom exclusif", "label2": "Découvrez une large sélection", "number": "01","img": "/assets/img1.jpg" },
+      { "label": "Plans et devis", "label2": "Accompagnement sur mesure", "number": "02","img": "/assets/img2.jpg" },
+      { "label": "Financement", "label2": "Procédures et accompagnement", "number": "03","img": "/assets/img3.jpg" },
+      { "label": "Livraison", "label2": "Prêt à l'emploi", "number": "04","img": "/assets/img4.jpg" }
+    ],
+    "do_best":"Ce que nous faisons de mieux",
+    "experties":"Compétence",
+    "fulfill":"Répondre à tous vos besoins",
+    "infoblock":[
+     {"label":"Vente","sub_label":"À l'écoute de vos besoins","info_description":"Trouvez votre solution modulaire idéale : des options d'achat flexibles pour répondre à tous vos besoins"},
+     {"label":"Installation","sub_label":"Solution","info_description":"Installation rapide et efficace : nos experts à votre service pour une installation sans tracas"},
+     {"label":"SAV","sub_label":"Assistance et Assistance","info_description":"Service après-vente sur mesure : nous nous engageons à votre entière satisfaction"}
+    ],
+    "flag_desc":"Le label  Made in Italy  est un symbole d'excellence et d'innovation dans le secteur industriel. Choisir une construction modulaire estampillée  Made in Italy  signifie opter pour une qualité inégalée, un design raffiné et une durabilité garantie, tout en respectant l'environnement.",
+    "pic":"Photos",
+    "modular":"Maurice Modulaire"
   }
   

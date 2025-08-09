@@ -48,6 +48,25 @@
       "terms": "Terms & Conditions",
       "privacy": "Privacy Policy"
     },
-    "picture_module":"Pictures Modulsquare"
+    "picture_module":"Pictures Modulsquare",
+    "ready_to_use":"Ready to use",
+    "ready_description":"A process designed to make your life easier",
+     "cards": [
+      { "label": "Exclusive showroom", "label2": "Discover a wide selection", "number": "01",    "img": "/assets/img1.jpg" },
+      { "label": "Plans & Quotes", "label2": "Tailor-made support", "number": "02","img": "/assets/img2.jpg" },
+      { "label": "Financing", "label2": "Procedures & Support", "number": "03","img": "/assets/img3.jpg" },
+      { "label": "Delivery", "label2": "Ready to use", "number": "04","img": "/assets/img4.jpg" }
+    ],
+    "do_best":"What We Do Best",
+    "experties":"Expertise",
+    "fulfill":"Fulfilling all your needs",
+    "infoblock":[
+     {"label":"Sale","sub_label":"Listening to your needs","info_description":"Find your perfect modular solution: flexible purchase options to meet all your needs"},
+     {"label":"Installation","sub_label":"Solution","info_description":"Fast and efficient installation: our experts at your service for a hassle-free setup"},
+     {"label":"SAV","sub_label":"Support and Assistance","info_description":"Tailor-made After-Sales Service: we are committed to your complete satisfaction"}
+    ],
+    "flag_desc":"The “Made in Italy” label is a symbol of excellence and innovation in the industrial sector. Choosing a modular construction stamped “Made in Italy” means opting for unmatched quality, refined design, and guaranteed durability — all while respecting the environment.",
+    "pic":"Pictures",
+    "modular":"Modulaire Maurice"
   }
   

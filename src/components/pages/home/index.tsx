@@ -1,11 +1,11 @@
 import React from 'react'
 import HeroSection from './hero-section'
 import AboutUs from './about-us'
-import ReadtoUse from './ready-to-use'
 import PersonalQuote from './personal-quote'
 import WhatDoBest from './what-do-best'
 import FlagSection from './flag-section'
 import Picture from './picture'
+import ReadytoUse from './ready-to-use'
 
 const LandingPage = () => {
   return (
@@ -13,7 +13,7 @@ const LandingPage = () => {
         <HeroSection/>
         <AboutUs/>
         <PersonalQuote/>
-        <ReadtoUse/>
+        <ReadytoUse/>
         <WhatDoBest/>
         <FlagSection/>
         <Picture/>

@@ -8,6 +8,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl'
 const images = [
   '/assets/img1.jpg',
   '/assets/img2.jpg',
@@ -18,6 +19,7 @@ const images = [
 ];
 
 const Picture = () => {
+  const t=useTranslations()
     const settings = {
     dots: true,
     infinite: true,
@@ -54,10 +56,10 @@ const Picture = () => {
             <div className="py-10">
                 <div className="max-w-7xl mx-auto">
                 <Heading className='text-center'>
-                    Pictures
+                    {t(`pic`)}
                 </Heading>
                 <SubHeading className='!text-4xl !text-semiBlack'>
-                    Modulaire Maurice
+                    {t(`modular`)}
                 </SubHeading>
                 </div>
                 <div className="my-10 md:px-5">

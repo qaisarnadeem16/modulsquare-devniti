@@ -1,8 +1,11 @@
+'use client'
 import Container from '@/components/common/container'
+import { useTranslations } from 'next-intl';
 import Image from 'next/image'
 import React from 'react'
 
 const FlagSection = () => {
+    const t = useTranslations();
   return (
     <div className=''>
         <Container className='md:!px-0'>
@@ -23,7 +26,7 @@ const FlagSection = () => {
             <div className="grid relative md:grid-cols-2  gap-10  py max-w-7xl mx-auto grid-cols-1 ">
             <div className="md:flex items-center gap-5">
                 <Image src={'/assets/logoflag.png'} alt='flaglogo' height={200} width={200} />
-                <p className=''>The “Made in Italy” label is a symbol of excellence and innovation in the industrial sector. Choosing a modular construction stamped “Made in Italy” means opting for unmatched quality, refined design, and guaranteed durability — all while respecting the environment.</p>
+                <p className=''>{t(`flag_desc`)}</p>
             </div>
             <div className="md:grid-cols-5 grid grid-cols-2 gap-3 items-center">
                <Image src={'/assets/logo1.png'} alt='flaglogo' height={100} width={100} className='w-auto h-auto'/>
