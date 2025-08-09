@@ -45,7 +45,7 @@ const Navbar = () => {
                     <div className="hidden  md:flex gap-10  lg:px-8 px-4  flex-1 justify-center items-center">
                         <div className='flex items-center lg:gap-3  text-lightBlack gap-2 lg:mr-0 '>
                             <Link href="/" className="hover:underline hover:text-primary  xl:px-4 px-2">{t(`home`)}</Link>
-                            <Link href="/modular-sales" className="hover:underline hover:text-primary xl:px-4 px-2">{t(`modular_sale`)}</Link>
+                                <Link href="/modular" className="hover:underline hover:text-primary xl:px-4 px-2">{t(`modular_sale`)}</Link>
                             <Link href="/pictures" className="hover:underline hover:text-primary  xl:px-4 px-2">{t(`pictures`)}</Link>
                         </div>
                       
@@ -108,7 +108,7 @@ const Navbar = () => {
                                 </div>
                                 <nav className="flex flex-col space-y-6 my-4">
                                     <Link href="/" className="hover:underline xl:px-4 px-2">{t('home')}</Link>
-                                    <Link href="/modular-sales" className="hover:underline hover:text-primary xl:px-4 px-2">{t(`modular_sale`)}</Link>
+                                    <Link href="/modular" className="hover:underline hover:text-primary xl:px-4 px-2">{t(`modular_sale`)}</Link>
                                     <Link href="/pictures" className="hover:underline hover:text-primary  xl:px-4 px-2">{t(`pictures`)}</Link>
                                     {/* <Button
                                         label={t('call_back')}

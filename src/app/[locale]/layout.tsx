@@ -2,7 +2,7 @@ import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import './globals.css';
-import { Instrument_Serif, Oswald, Poppins } from 'next/font/google';
+import { Instrument_Serif, Inter, Oswald, Poppins } from 'next/font/google';
 import { getMessages } from 'next-intl/server';
 
 export const instrumentSerif = Instrument_Serif({
@@ -27,6 +27,12 @@ export const oswald = Oswald({
   variable: '--font-oswald',
 });
 
+export const inter = Inter({
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+});
 export async function generateMetadata({
   params,
 }: {
@@ -68,7 +74,7 @@ export default async function LocaleLayout({
   return (
     <html
       lang={locale}
-      className={`${poppins.variable} ${instrumentSerif.variable} ${oswald.variable}`}
+      className={`${poppins.variable} ${instrumentSerif.variable} ${oswald.variable} ${inter.variable}`}
     >
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>

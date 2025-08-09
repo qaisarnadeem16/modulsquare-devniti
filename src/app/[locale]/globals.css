@@ -19,6 +19,7 @@
   /* fonts */
 
   --font-poppins: 'poppins';
+  --font-inter: 'inter';
   --font-instrumentSerif: 'instrumentSerif';
   --font-oswald: 'oswald';
 }
@@ -43,7 +44,7 @@
 body {
   background-color: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sans);
+  font-family: var(--font-inter);
 }
 
 .outlined-heading {
