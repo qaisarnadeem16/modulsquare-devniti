@@ -227,8 +227,8 @@ const QuotationForm = () => {
             disabled={loading}
             className="w-full bg-primary
                      text-white font-medium py-3 px-6 rounded-lg 
-                     transition-colors duration-200 
-                     focus:outline-none focus:ring-offset-2"
+                     ease-in-out cursor-pointer duration-200 
+                     focus:outline-none focus:ring-offset-2 hover:scale-105 transition-all"
           >
             {loading ? (
               <span className="flex items-center justify-center">

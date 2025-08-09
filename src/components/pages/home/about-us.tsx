@@ -7,6 +7,8 @@ import SubHeading from '@/components/common/custom-subheading';
 import Image from 'next/image';
 import React from 'react';
 import Button from '@/components/common/custom-button';
+import { FaCheck, } from 'react-icons/fa6';
+
 
 const AboutUs = () => {
   const t = useTranslations();
@@ -43,7 +45,10 @@ const AboutUs = () => {
 
               <div>
                 {serviceData.map((item:any, index:any) => (
-                  <div key={index} className="flex gap-2">
+                  <div key={index} className="flex gap-2 items-start">
+                    <div className="">
+                      <FaCheck  className='text-primary mt-2 bg-gray-100 h-5 w-5 rounded-full p-1' />
+                    </div>
                     <p className="leading-8 text-lightBlack">
                       <strong className="text-black">{item.heading}:</strong>{' '}
                       <span>{item.description}</span>
