@@ -3,13 +3,13 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import Image from 'next/image';
-import Link from 'next/link';
 // import LanguageSwitcher from './-switcher';
 import { Facebook, Instagram, MessageCircleMore, Phone, Mail } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import Button from '../common/custom-button';
 import { ArrowDown, Line } from '@/svgs';
 import LanguageSwitcher from './language-switcher';
+import { Link } from '@/i18n/navigation';
 // import QuotationForm from '../common/quotation-form';
 
 
