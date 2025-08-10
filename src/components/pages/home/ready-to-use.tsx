@@ -19,7 +19,7 @@ const ReadytoUse = () => {
             <SubHeading>{t(`ready_description`)}</SubHeading>
           </div>
           <div className="pt-10">
-            <div className="grid z-20 relative grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 p-4">
+            <div className="grid z-20 relative grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 md:p-4">
               {cards.map((card:any, index:any) => (
                 <div
                   key={index}

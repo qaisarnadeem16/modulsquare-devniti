@@ -24,7 +24,7 @@ const AboutUs = () => {
               alt="Logo"
               width={200}
               height={200}
-              className="h-auto w-5/6"
+              className="h-auto w-full md:w-5/6"
             />
           </div>
           <div className="space-y-3">
@@ -36,7 +36,7 @@ const AboutUs = () => {
 
             <SubHeading>{t('subheading')}</SubHeading>
 
-            <div className="max-w-5/6">
+            <div className="md:max-w-5/6">
               <p className="text-lightBlack text-base">
                 {t('about_description')}
               </p>

@@ -60,7 +60,7 @@ const Navbar = () => {
                             </div>
                         </div>
                          <LanguageSwitcher />
-                        <Link href={'/qoute'}>
+                        <Link href={'/quotation'}>
                         <Button
                             label={t(`request_quote`)}
                             className="bg-primary text-white px-6 py-3 rounded-none font-semibold"

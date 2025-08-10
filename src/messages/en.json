@@ -43,10 +43,11 @@
 "footer": {
       "home": "Home",
       "about_us": "About us",
-      "gallery": "Gallery",
-      "quotation": "Quotation",
-      "terms": "Terms & Conditions",
-      "privacy": "Privacy Policy"
+      "blog": "Blog",
+      "contact": "Contact Us",
+      "legal":"Legal Notice",
+      "privacy": "Privacy Policy",
+      "cookie": "Cookie Policy"
     },
     "picture_module":"Pictures Modulsquare",
     "ready_to_use":"Ready to use",

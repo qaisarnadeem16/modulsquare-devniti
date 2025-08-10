@@ -43,10 +43,11 @@
       "footer": {
       "home": "Accueil",
       "about_us": "À propos de nous",
-      "gallery": "Galerie",
-      "quotation": "Devis",
-      "terms": "Conditions Générales",
-      "privacy": "Politique de Confidentialité"
+      "blog": "Blogue",
+      "contact": "Contactez-nous",
+      "legal":"Mentions légales",
+      "privacy": "politique de confidentialité",
+      "cookie": "Politique en matière de cookies"
     }, 
     "picture_module":"Photos Modulsquare",
     "ready_to_use":"Prêt à l'emploi",

@@ -37,7 +37,7 @@ const HeroSection = () => {
         {slides.map((img, index) => (
           <div key={index}>
             <div
-              className="min-h-[75vh] bg-cover bg-center overflow-hidden flex items-center justify-center"
+              className="md:min-h-[75vh] h-[50vh] bg-cover bg-center overflow-hidden flex items-center justify-center"
               style={{ backgroundImage: `url(${img})` }}
             >
               <div className="w-full h-full flex items-center justify-center">
