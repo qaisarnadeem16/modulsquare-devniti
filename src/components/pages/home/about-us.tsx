@@ -64,7 +64,7 @@ const AboutUs = () => {
           </div>
         </div>
             <div className="flex justify-center py-3">
-            <Button label={t('learn_more')} className="rounded-br-lg !text-primary hover:text-white hover:bg-primary border-2 !bg-transparent py-2" />
+            <Button label={t('learn_more')} className="rounded-br-lg !text-primary hover:!text-white hover:!bg-primary border-2 !bg-transparent py-2" />
         </div>
       </Container>
     </div>

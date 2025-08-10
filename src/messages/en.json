@@ -32,7 +32,7 @@
   }
 ],
 "learn_more":"Learn More",
-"quote_title": "Devis",
+"quote_title": "Estimate",
 "quote_question": "Would you like a personalized quote?",
 "quote_fast": "Fast quote",
 "quote_within": "Your quote within 48h max",
@@ -69,6 +69,53 @@
     "flag_desc":"The “Made in Italy” label is a symbol of excellence and innovation in the industrial sector. Choosing a modular construction stamped “Made in Italy” means opting for unmatched quality, refined design, and guaranteed durability — all while respecting the environment.",
     "pic":"Pictures",
     "modular":"Modulaire Maurice",
-    "products":"Products"
+    "products":"Products",
+    "professional":"Professionals",
+    "discover":"Discover our",
+    "discover_desc":"modular units for individuals",
+    "discover_btn":"Discover",
+    "modular_profession":"Modular for professionals:",
+    "your_vision":"your vision, our expertise",
+    "para_1":"At Modulaire Réunion, we understand the unique challenges you face in your business. Thats why we are dedicated to guiding you step by step in making your project a reality.",
+    "para_2":"Whether it is dimensions, designs, deadlines, or budgets, we are here to tailor each solution to your specific needs. Trust our expertise to transform your aspirations into tangible realities.",
+    "service": "Services",
+    "service_intro": "Excellence and Tailor-Made. At Modulaire Réunion, we offer much more than just modular solutions. Our services range from initial design to final implementation, including customization to meet your needs.",
+    "service_list": [
+     {
+      "title": "Design & Planning",
+      "desc": "We work with you to develop a plan tailored to your requirements, ensuring optimal use of space."
+     },
+     {
+      "title": "Personalization",
+      "desc": "Dimensions, models, finishes… Each module is adapted to your specific needs."
+     },
+     {
+      "title": "Installation & Set-up",
+      "desc": "Our dedicated teams ensure rapid installation that complies with safety standards."
+     },
+     {
+      "title": "Monitoring & Maintenance",
+      "desc": "We are committed to ensuring the durability of your installation."
+     }
+   ],
+   "services_not_covered_title": "Services not covered",
+   "services_not_covered_desc": "Administrative file and permit for installation, access ramp to the modular units, hydraulic and electrical connections and grounding, all services not mentioned in your quotes",
+   "detail": "Detail",
+   "detail_list": [
+    "Plan and estimate",
+    "Visit to the future installation site",
+    "Construction and assembly",
+    "Installation of aluminum",
+    "Join between modulars",
+    "Electricity and plumbing",
+    "Air conditioning",
+    "Bathrooms and Kitchenette"
+   ],
+   "financing":"Our financing solutions",
+   "snc":"SNC",
+   "text_1":"For eligible professionals, this means they are exempt from paying taxes on the product purchased. This is done through a tax exemption firm with whom we can put you in touch",
+   "text_2":"You can claim a reduction in your bill of 25 to 30% on average , covered by the SNC , thanks to this tax exemption service.",
+   "text_3":"Payments can be made by bank transfer, check, or credit card, 50% upon order and 50% upon delivery . (Depending on the project, an agreement may be made).",
+   "text_4":"We also work with Crédit Moderne and other financing brokers."
   }
   

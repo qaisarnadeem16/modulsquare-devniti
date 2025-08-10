@@ -7,6 +7,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import Button from '@/components/common/custom-button';
 import { useTranslations } from 'next-intl';
 import Container from '@/components/common/container';
+import { Link } from '@/i18n/navigation';
 
 const slides = [
   '/assets/hero.png',
@@ -51,7 +52,9 @@ const HeroSection = () => {
       </Slider>
 
       <div className="flex justify-center py-6">
+       <Link href={'/professional'}>
         <Button label={t(`our_offer`)} className="rounded-br-lg py-3" />
+       </Link>
       </div>
       </div>
     </Container>

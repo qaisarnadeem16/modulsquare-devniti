@@ -69,6 +69,53 @@
     "flag_desc":"Le label  Made in Italy  est un symbole d'excellence et d'innovation dans le secteur industriel. Choisir une construction modulaire estampillée  Made in Italy  signifie opter pour une qualité inégalée, un design raffiné et une durabilité garantie, tout en respectant l'environnement.",
     "pic":"Photos",
     "modular":"Maurice Modulaire",
-    "products":"Produits"
+    "products":"Produits",
+    "professional":"Professionnels",
+    "discover":"Découvrez notre",
+    "discover_desc":"unités modulaires pour particuliers",
+    "discover_btn":"Découvrir",
+    "modular_profession":"Modulaire pour les professionnels :",
+    "your_vision":"votre vision, notre expertise",
+    "para_1":"Chez Modulaire Réunion, nous comprenons les défis uniques auxquels vous êtes confrontés dans votre entreprise. C'est pourquoi nous nous engageons à vous accompagner pas à pas pour concrétiser votre projet.",
+    "para_2":"Dimensions, design, délais ou budget, nous sommes là pour adapter chaque solution à vos besoins spécifiques. Faites confiance à notre expertise pour concrétiser vos aspirations.",
+   "service": "Services",
+   "service_intro": "Excellence et sur mesure. Chez Modulaire Réunion, nous offrons bien plus que de simples solutions modulaires. Nos services vont de la conception initiale à la mise en œuvre finale, y compris la personnalisation pour répondre à vos besoins.",
+   "service_list": [
+    {
+      "title": "Conception et planification",
+      "desc": "Nous travaillons avec vous pour élaborer un plan adapté à vos exigences, garantissant une utilisation optimale de l’espace."
+    },
+    {
+      "title": "Personnalisation",
+      "desc": "Dimensions, modèles, finitions… Chaque module est adapté à vos besoins spécifiques."
+    },
+    {
+      "title": "Installation et mise en place",
+      "desc": "Nos équipes dédiées assurent une installation rapide conforme aux normes de sécurité."
+    },
+    {
+      "title": "Suivi et maintenance",
+      "desc": "Nous nous engageons à assurer la durabilité de votre installation."
+    }
+   ],
+   "services_not_covered_title": "Services non couverts",
+   "services_not_covered_desc": "Dossier administratif et permis d’installation, rampe d’accès aux modules, raccordements hydrauliques et électriques ainsi que la mise à la terre, tous les services non mentionnés dans vos devis",
+   "detail": "Détail",
+   "detail_list": [
+    "Plan et devis",
+    "Visite du futur site d’installation",
+    "Construction et assemblage",
+    "Installation de l’aluminium",
+    "Jonction entre les modules",
+    "Électricité et plomberie",
+    "Climatisation",
+    "Salles de bain et kitchenette"
+   ],
+   "financing":"Nos solutions de financement",
+   "snc":"CNS",
+   "text_1":"Pour les professionnels éligibles, cela signifie qu'ils sont exonérés de taxes sur le produit acheté. Cette exonération se fait par l'intermédiaire d'un cabinet d'exonération fiscale avec lequel nous pouvons vous mettre en relation.",
+   "text_2":"Vous pouvez bénéficier d'une réduction de votre facture de 25 à 30% en moyenne, prise en charge par le SNC, grâce à ce service de défiscalisation.",
+   "text_3":"Les paiements peuvent être effectués par virement bancaire, chèque ou carte bancaire, 50% à la commande et 50% à la livraison. (Selon le projet, un accord peut être conclu).",
+   "text_4":"Nous travaillons également avec le Crédit Moderne et d'autres courtiers en financement."
   }
   

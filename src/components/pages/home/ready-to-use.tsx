@@ -11,7 +11,7 @@ const ReadytoUse = () => {
   const cards = t.raw('cards'); 
 
   return (
-    <div className='py-10 bg-[#f8f9fa]'>
+    <div className='py-10 bg-light'>
       <Container className='md:!px-0'>
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col items-center justify-center gap-8">
