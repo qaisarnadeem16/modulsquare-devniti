@@ -50,6 +50,56 @@ body {
 
 .outlined-heading {
   color: transparent;
-  -webkit-text-stroke: 2px #c8913b;
+  -webkit-text-stroke: 2px #ce9841;
   text-shadow:#ffff;
+}
+.slick-list {
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.slick-dots {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    position: absolute;
+    width: 30% !important;
+    bottom:-10% !important;
+    right: 0rem;
+}
+.slick-dots li button {
+  width: 100% !important; 
+  height: 10px !important;
+  background-color: #ce9841; /* Orange color from the image */
+  position: relative;
+  display: flex !important;
+  gap: 100px !important;
+  cursor: pointer;
+}
+
+.slick-dots li button:before {
+  content: '________' !important;
+  position: absolute;
+  top: 50%;
+  height: 2px;
+  margin: 0px 10px !important;
+  transform: translateY(-50%);
+}
+
+.slick-dots li.slick-active button {
+  background-color: #ce9841; /* Maintain same color for active state, adjust if desired */
+  width: 100%;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 0.75; /* Adjust opacity for active state */
+}
+
+.slick-dots li button:before {
+  opacity: 0.25; /* Default opacity for inactive state */
 }

@@ -15,7 +15,7 @@ const DiscoverSection = () => {
             <div className="max-w-6xl mx-auto flex flex-col gap-4 justify-center items-start h-full">
              <h1 className='font-bold text-4xl text-white'>{t(`discover`)}</h1>
              <h1 className='font-bold text-4xl text-white'>{t(`discover_desc`)}</h1>
-             <Link href={'/'}>
+             <Link href={'/modular'}>
             <Button
                label={t(`discover`)}
                className="rounded-br-lg border-2 border-white hover:!border-none !bg-transparent hover:!bg-primary py-3"

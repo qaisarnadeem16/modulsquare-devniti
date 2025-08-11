@@ -17,11 +17,11 @@ const slides = [
 const HeroSection = () => {
   const t = useTranslations();
   const settings = {
-    dots: false,
+    dots: true,
     fade: true,
     infinite: true,
     speed: 1000,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000, // Change every 2 sec
     slidesToShow: 1,
     slidesToScroll: 1,

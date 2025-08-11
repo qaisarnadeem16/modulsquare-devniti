@@ -84,7 +84,7 @@ const Footer: React.FC<FooterProps> = () => {
             </Link>
             <span className="text-[#686D7D]">/</span>
             <Link
-              href="/aboutus"
+              href="/about-us"
               className="text-white hover:text-gray-300 transition-colors"
             >
               {t("footer.about_us")}
