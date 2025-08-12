@@ -12,7 +12,7 @@ const OurVision = () => {
         <Container>
             <div className="max-w-7xl mx-auto py-10">
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-10 items-center">
-                    <div className="">
+                    <div className="md:order-1 order-2">
                     <div className="space-y-4 py-7">
                        <h1>{t('title')}</h1>
                        <SubHeading>{t('subheading')}</SubHeading>
@@ -28,7 +28,7 @@ const OurVision = () => {
                          <Image src={'/assets/signature.png'} alt='' height={250} width={250} className='' />
                     </div>
                     </div>
-                    <div className="flex justify-center">
+                    <div className="flex justify-center md:order-2 order-1">
                         <Image src={'/assets/modular.png'} alt='' height={400} width={400} className='border-r-[1.2rem] border-b-[1.2rem]  border-primary' />
                     </div>
                 </div>
